@@ -48,6 +48,8 @@ PASSWORD=$(kubectl get secret -n openfaas basic-auth -o jsonpath="{.data.basic-a
 echo -n $PASSWORD | faas-cli login --username admin --password-stdin
 ```
 
+## Lab 2
+
 [Lab2](https://github.com/openfaas/workshop/blob/master/lab2.md)
 
 
